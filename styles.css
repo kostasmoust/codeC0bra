@@ -8,6 +8,7 @@ body {
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 3;
+    overflow: hidden;
 }
 
 #siteHeader {
@@ -66,17 +67,22 @@ body {
 }
 
 .menuButtons {
-    width: 27vh;
+    width: 25vh;
     height: 10vh;
     background-color: #933DC9;
     color:white;
     font-size: 40px;
     border-radius: 20px;
     grid-row: 4;
+    border-style: none
 }
 
-.menuButtons:hover {
-    box-shadow: #FBFAEE;
+.menuButtons:active {
+    background-color: #933DC9;
+    box-shadow: 0 5px 5px #e253ff ;
+    transform: translateY(4px);
+    transition: 0.01s;    
+    
 }
 
 #lessonsButton{
