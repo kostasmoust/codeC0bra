@@ -1,10 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
 
-html, body {
+  body {
   height: 100%;
   background-color: #1e1e1e;
   font-family: 'Segoe UI', sans-serif;
@@ -33,6 +30,7 @@ html, body {
 }
 
 .brand-title {
+  font-family: 'Feather Bold';
   font-size: 1.3rem;
   font-weight: bold;
 }
