@@ -1,0 +1,81 @@
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+
+body {
+    background-color: #53118F;
+    margin: 0;
+    display:grid;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#siteHeader {
+    background-color: #242424;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid: 1/1;    
+}
+
+#headerImage {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+}
+
+#headerText{
+    font-family: 'Feather-Bold';
+    color: #FBFAEE;
+    font-size: 85px;
+    font-weight: 200;
+    margin-left: 35px;
+}
+
+#menuSelection {
+    grid-row: 3;
+    height: 1200px;
+    width: 100%;
+    background-color: #242424;
+}
+
+#userCircle{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 50px;
+    border-style:solid;
+    border-radius: 300px;
+    border-color: #242424;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    margin-top: 100px; 
+    margin-bottom: -200px;
+    z-index: 1;
+}
+
+.menuButtons {
+    width: 500px;
+    height: 150px;
+    background-color: #933DC9;
+    color:white;
+    font-size:75px;
+    border-radius: 20px;
+}
+
+#lessonsButton{
+    margin-top:300px;
+    display: block;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+#resourcesButton{
+    margin-top: 100px;
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
