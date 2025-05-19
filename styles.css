@@ -16,33 +16,33 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    grid: 1/1;    
+    grid: 1/1;  
+    gap: 10px;
 }
 
 #headerImage {
-    height: 200px;
-    width: 200px;
+    height: 10vh;
+    width: 10vh;
     align-self: center;
 }
 
 #headerText{
-    font-family: 'Feather-Bold';
+    font-family: 'Feather Bold';
     color: #FBFAEE;
-    font-size: 85px;
+    font-size: 40px;
     font-weight: 200;
-    margin-left: 35px;
 }
 
 #menuSelection {
     grid-row: 3;
-    height: 1200px;
+    height: 62vh;
     width: 100%;
     background-color: #242424;
 }
 
 #userCircle{
-    height: 400px;
-    width: 400px;
+    height: 25vh;
+    width: 25vh;
     background-color: white;
     border: 50px;
     border-style:solid;
@@ -57,16 +57,20 @@ body {
 }
 
 .menuButtons {
-    width: 500px;
-    height: 150px;
+    width: 27vh;
+    height: 10vh;
     background-color: #933DC9;
     color:white;
-    font-size:75px;
+    font-size: 40px;
     border-radius: 20px;
 }
 
+.menuButtons:hover {
+    
+}
+
 #lessonsButton{
-    margin-top:300px;
+    margin-top:25vh;
     display: block;
     align-self: center;
     justify-self: center;
@@ -74,7 +78,7 @@ body {
 }
 
 #resourcesButton{
-    margin-top: 100px;
+    margin-top: 5vh;
     display: block;
     align-self: center;
     justify-self: center;
