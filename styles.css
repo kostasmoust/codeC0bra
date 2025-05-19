@@ -11,6 +11,16 @@ body {
     grid-column-end: 3;
 }
 
+a{
+    text-decoration: none;
+    color:#FBFAEE; 
+}
+
+a:link:visited:hover:Active {
+    text-decoration: none;
+    color:#FBFAEE;
+}
+
 #siteHeader {
     background-color: #242424;
     width: 100%;
@@ -85,6 +95,7 @@ body {
     box-shadow: 0 5px 5px #e253ff ;
     transform: translateY(4px);
     transition: 0.01s;  
+    display: none;
 }
 
 #lessonsButton{
