@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #1e1e1e;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+/* Full-screen wrapper */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+  background-color: #1e1e1e;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.brand-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+.lesson-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:
+    linear-gradient(to right, #6b2bbd 6px, transparent 6px, transparent calc(100% - 6px), #6b2bbd calc(100% - 6px));
+  padding: 1rem;
+}
+
+/* Card styling */
+.lesson-card {
+  background-color: #111;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 360px;
+  display: grid;
+  gap: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Title */
+.lesson-title {
+  font-size: 1.3rem;
+}
+
+/* Video placeholder */
+.video-placeholder {
+  background-color: #ccc;
+  height: 180px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+}
+
+.play-button {
+  font-size: 2rem;
+  color: gray;
+}
+
+/* Summary */
+.lesson-summary {
+  font-size: 0.9rem;
+  color: lightgray;
+}
+
+/* Extra section */
+.extra-text {
+  background-color: #222;
+  padding: 0.75rem;
+  border-radius: 8px;
+  color: #ddd;
+  font-size: 0.9rem;
+}
+
+/* Button */
+.exercise-button {
+  background-color: #a259ff;
+  color: white;
+  padding: 0.8rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.exercise-button:hover {
+  background-color: #9132ff;
+}
