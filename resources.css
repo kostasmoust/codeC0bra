@@ -1,0 +1,75 @@
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+a{
+    text-decoration: #FBFAEE;
+    color: #FBFAEE;
+}
+
+a:link:visited:hover:Active {
+    text-decoration: none;
+    color:#FBFAEE;
+}
+
+.app-container {
+  width: 100%;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 3vh;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.header img {
+  height: 10vh;
+  margin-left: -4vh;
+}
+
+.header h1 {
+  color: white;
+  font-family: 'Feather Bold';
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.lessons-section {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #2c2c2c;
+  padding: 40px 16px 70vh 16px; 
+  border-left: 2vh solid #732fd2;
+  border-right: 2vh solid #732fd2;
+  border-top: 2vh solid #732fd2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius:20px;
+}
+
+.lessons-title {
+    color: #FBFAEE;
+    font-family: 'Baloo 2';
+    font-size: 100px;
+}
+
+p {
+    font-size: 35px;
+}
