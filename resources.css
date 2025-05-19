@@ -12,6 +12,16 @@ body {
   overflow: hidden;
 }
 
+a{
+    text-decoration: #FBFAEE;
+    color: #FBFAEE;
+}
+
+a:link:visited:hover:Active {
+    text-decoration: none;
+    color:#FBFAEE;
+}
+
 .app-container {
   width: 100%;
   background-color: #1e1e1e;
@@ -43,7 +53,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 2;
   background-color: #2c2c2c;
-  padding: 40px 16px 40vh 16px; 
+  padding: 40px 16px 70vh 16px; 
   border-left: 2vh solid #732fd2;
   border-right: 2vh solid #732fd2;
   border-top: 2vh solid #732fd2;
@@ -54,34 +64,13 @@ body {
   border-radius:20px;
 }
 
-
 .lessons-title {
-  grid-column: 1;
-  color: white;
-  font-size: 120px;
-  font-weight: bold;
-  margin-bottom: 2vh;
+    color: #FBFAEE;
+    font-family: 'Baloo 2';
+    font-size: 100px;
+    font-weight: 700;
 }
 
-
-.lesson-button {
-  margin: 1.5vh 0;
-  grid-column:2 ;
-  background-color: #9c4dcc;
-  color: white;
-  border: none;
-  padding: 10px;
-  margin-bottom: 12px;
-  border-radius: 20px;
-  width: 75%;
-  height: auto;
-  font-family: 'Baloo 2';
-  font-weight:700;
-  font-size: 60px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.lesson-button:hover {
-  background-color: #7e3bb2;
+p {
+    font-size: 35px;
 }
