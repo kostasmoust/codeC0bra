@@ -1,4 +1,5 @@
 @import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
 
 body {
     background-color: #242424;
@@ -8,7 +9,6 @@ body {
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 3;
-    overflow: hidden;
 }
 
 #siteHeader {
@@ -18,7 +18,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     grid: 1/1;  
-    gap: 10px;
+    gap: 30px;
 }
 
 #headerImage {
@@ -30,7 +30,7 @@ body {
 #headerText{
     font-family: 'Feather Bold';
     color: #FBFAEE;
-    font-size: 40px;
+    font-size: 80px;
     font-weight: 200;
 }
 
@@ -62,27 +62,29 @@ body {
     align-self: center;
     justify-self: center; 
     z-index: 1;
-    position: absolute;
-    margin-bottom: 10vh;
+    margin-top: -10vh;
+    margin-bottom: -20vh;
 }
 
 .menuButtons {
+    margin: auto;
     width: 25vh;
     height: 10vh;
     background-color: #933DC9;
     color:white;
-    font-size: 40px;
+    font-size: 60px;
     border-radius: 20px;
     grid-row: 4;
-    border-style: none
+    border-style: none;
+    font-family: 'Baloo 2';
+    font-weight: 700;
 }
 
 .menuButtons:active {
     background-color: #933DC9;
     box-shadow: 0 5px 5px #e253ff ;
     transform: translateY(4px);
-    transition: 0.01s;    
-    
+    transition: 0.01s;  
 }
 
 #lessonsButton{
