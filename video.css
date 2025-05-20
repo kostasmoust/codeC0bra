@@ -8,6 +8,16 @@
   color: white;
 }
 
+a{
+    text-decoration: none;
+    color:#FBFAEE; 
+}
+
+a:link:visited:hover:Active {
+    text-decoration: none;
+    color:#FBFAEE;
+}
+
 /* Full-screen wrapper */
 .main-container {
   display: flex;
@@ -90,7 +100,7 @@
   padding: 0.75rem;
   border-radius: 8px;
   color: #ddd;
-  font-size: 0.9rem;
+  font-size: 0.4rem;
 }
 
 /* Button */
