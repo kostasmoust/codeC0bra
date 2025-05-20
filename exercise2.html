@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code Cobra Puzzle</title>
+  <link rel="stylesheet" href="exercise.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="congrats-overlay" id="congrats">
+  <div class="congrats-message">
+    🎉 Συγχαρητήρια απάντησες σωστα! 🎉
+    <button id="next-btn">OK</button>
+  </div>
+</div>
+    
+    <!-- Header -->
+    <header class="header">
+      <img src="images/c0bra.png" alt="Code Cobra Logo" class="logo">
+      <h1 class="title">Code Cobra</h1>
+    </header>
+
+    <!-- Main game area -->
+    <div class="game-area">
+      
+      
+      <!-- Code block -->
+<div class="code-block">
+  <pre>
+x=8
+y=4
+average=(x+y)<span id="blank">___</span>2
+  </pre>
+</div>
+
+
+      <!-- Snake image -->
+      <img src="images/c0bra.png" alt="Snake Mascot" class="snake-img" />
+
+      <!-- Snake with speech -->
+<div class="snake-container">
+  <div class="speech-bubble">Διάλεξε την σωστή απάντηση</div>
+</div>
+
+      
+      <!-- Answer area -->
+<div class="answer-box">
+  <button class="answer-btn" data-answer="//">//</button>
+  <button class="answer-btn" data-answer="-">-</button>
+  <button class="answer-btn" data-answer="*">*</button>
+  <button class="answer-btn" data-answer="/">/</button>
+</div>
+
+
+    </div>
+  </div>
+</body>
+<script>
+  const correctAnswer = "/";
+  const blank = document.getElementById("blank");
+  const buttons = document.querySelectorAll(".answer-btn");
+  const overlay = document.getElementById("congrats");
+  const nextBtn = document.getElementById("next-btn");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      const userAnswer = button.getAttribute("data-answer");
+
+      if (userAnswer === correctAnswer) {
+        blank.textContent = userAnswer;
+        button.style.backgroundColor = "#6b2bbd";
+        button.style.color = "#fff";
+        button.disabled = true;
+
+        // Show congratulations overlay
+        setTimeout(() => {
+          overlay.style.display = "flex";
+        }, 500);
+      } else {
+        button.style.backgroundColor = "#a00";
+        button.style.color = "#fff";
+        setTimeout(() => {
+          button.style.backgroundColor = "#ccc";
+          button.style.color = "#000";
+        }, 800);
+      }
+    });
+  });
+
+  // Reset or move to next page
+  nextBtn.addEventListener("click", () => {
+    overlay.style.display = "none";
+    // location.href = "next-page.html"; // optional navigation
+  });
+</script>
+
+</html>
