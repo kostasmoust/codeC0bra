@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a{
@@ -53,7 +53,7 @@ a:link:visited:hover:Active {
   grid-column-start: 1;
   grid-column-end: 2;
   background-color: #2c2c2c;
-  padding: 40px 16px 40vh 16px; 
+  padding: 40px 16px 5vh 16px; 
   border-left: 2vh solid #732fd2;
   border-right: 2vh solid #732fd2;
   border-top: 2vh solid #732fd2;
