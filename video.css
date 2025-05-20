@@ -44,19 +44,19 @@
   border-left: 2vh solid #732fd2;
   border-right: 2vh solid #732fd2;
   border-top: 2vh solid #732fd2;
+  border-bottom: 2vh solid #732fd2;
+  border-radius: 20px;
   padding: 1rem;
 }
 
 /* Card styling */
 .lesson-card {
-  background-color: #111;
-  border-radius: 12px;
+  border-radius: 20vh;
   padding: 1rem;
   width: 100%;
   max-width: 360px;
   display: grid;
   gap: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 /* Title */
