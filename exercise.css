@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html, body {
+body {
   height: 100%;
   background-color: #1e1e1e;
   font-family: 'Segoe UI', sans-serif;
@@ -16,9 +16,9 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background:
-    linear-gradient(to right, #6b2bbd 6px, transparent 6px, transparent calc(100% - 6px), #6b2bbd calc(100% - 6px)),
-    linear-gradient(to bottom, #6b2bbd 6px, transparent 6px);
+  border-left: 2vh solid #732fd2;
+  border-right: 2vh solid #732fd2;
+  border-top: 2vh solid #732fd2;
   background-repeat: no-repeat;
   background-size: 100% 6px, 6px 100%;
   background-position: top, left;
@@ -55,7 +55,7 @@ html, body {
 /* Code block */
 .code-block {
   background-color: #e0e0e0;
-  border-radius: 20px;
+  border-radius: 16px;
   padding: 1rem;
   color: black;
   width: 100%;
