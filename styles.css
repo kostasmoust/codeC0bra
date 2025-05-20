@@ -21,6 +21,33 @@ a:link:visited:hover:Active {
     color:#FBFAEE;
 }
 
+#userIcon{
+    display: block;
+}
+
+#userIconHead {
+    position:relative;
+    width: 10vh;
+    height: 10vh;
+    background-color: #ccc;
+    margin: auto;
+    border-radius: 10vh;
+    margin-bottom: -4vh;
+    margin-top: 2vh;
+    z-index: 1;
+}
+
+#userIconBody {
+    display: inherit;
+    height: 15vh;
+    width: 15vh;
+    background-color: #933DC9;
+    border-radius: 150px 150px 150px 150px;
+    margin: auto;
+    margin-top: -2vh;
+    z-index: -1;
+}
+
 #siteHeader {
     background-color: #242424;
     width: 100%;
